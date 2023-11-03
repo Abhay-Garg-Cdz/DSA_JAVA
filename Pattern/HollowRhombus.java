@@ -1,3 +1,5 @@
+package pattern;
+
 public class HollowRhombus {
     public static void main(String[] args) {
         int n = 5;

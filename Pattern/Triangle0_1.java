@@ -1,3 +1,4 @@
+package pattern;
 public class Triangle0_1 {
     public static void main(String[] args) {
         int n = 4;

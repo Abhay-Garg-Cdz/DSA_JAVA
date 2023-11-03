@@ -1,3 +1,5 @@
+package pattern;
+
 public class HAlfPyramid {
     public static void main(String[] args) {
         int n = 4;
