@@ -2,7 +2,7 @@ package arrays;
 
 // import java.util.stream.*;
 import java.util.Arrays;;
-public class AntFallPlank {
+public class AntFallPlank1503L {
 
     public static int getLastMoment(int n, int[] left, int[] right) {
         
@@ -10,8 +10,8 @@ public class AntFallPlank {
         int left_Max = Arrays.stream(left).max().orElse(0);
         int right_Min = Arrays.stream(right).min().orElse(0);
 
-
-        return Math.max(n-right_Min,left_Max) ;   
+        
+        return Math.max(n-right_Min,left_Max); 
 
     }
     public static void main(String[] args) {
