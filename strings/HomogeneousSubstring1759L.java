@@ -29,6 +29,7 @@ public class HomogeneousSubstring1759L {
             list.add(j, count);
             // System.out.println(list);
         }
+        
         long counts = 0;
         for (int i = 0; i <= list.size() - 1; i++) {
             long k = list.get(i);
